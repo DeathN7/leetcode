@@ -8,6 +8,6 @@ class Solution(object):
                 i += 1
         return len(nums)
     
-nums = input("Input array: ").split()
-val = input("Input value to remove: ")
+nums = input("nhap mang: ").split()
+val = input("nhap so can xoa: ")
 print(Solution().removeElement(nums, val))

@@ -9,5 +9,5 @@ class Solution(object):
         return len(nums)
     
 
-num = input("Input array").split() 
+num = input("nhap mang: ").split() 
 print(Solution().removeDuplicates(num))
